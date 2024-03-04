@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:sji_info/screens/home_screen.dart';
-import 'package:sji_info/screens/signup_screen.dart';
+import 'package:shoppinglist/screens/home_screen.dart';
+import 'package:shoppinglist/screens/signup_screen.dart';
 
 import '../backend/firebase_auth.dart';
 import '../backend/validator.dart';
