@@ -130,6 +130,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                           email: _emailTextController.text,
                                           password:
                                               _passwordTextController.text,
+                                          Password:
+                                              'String', //added this, wasn't apart of the original code
                                         );
 
                                         setState(() {

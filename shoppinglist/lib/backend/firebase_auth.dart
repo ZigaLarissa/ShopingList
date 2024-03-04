@@ -7,6 +7,7 @@ class FirebaseAuthHelper {
     required String name,
     required String email,
     required String Password,
+    required String password,
   }) async {
     FirebaseAuth auth = FirebaseAuth.instance;
     User? user;
