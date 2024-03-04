@@ -2,6 +2,13 @@ plugins {
     id "com.android.application"
     id "kotlin-android"
     id "dev.flutter.flutter-gradle-plugin"
+    // add the google service gradle plugin
+    id("com.google.gms.google-services")
+
+    dependencies {
+        // import the Firebase BoM
+        implementation(platform("com.google.firebase:firebase-bom:32.7.3"))
+    }
 }
 
 def localProperties = new Properties()
